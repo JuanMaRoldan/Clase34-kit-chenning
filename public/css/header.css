@@ -30,3 +30,10 @@ header{
     text-transform: uppercase;
     width: 100%;
 }
+
+@media (min-width : 460px){
+    .header__menu li{
+        background-color: var(--colorRojo);
+    }
+    
+}
