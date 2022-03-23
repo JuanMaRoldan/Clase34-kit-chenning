@@ -1,0 +1,54 @@
+body.home{
+    background-image: url('images/img-banner.jpg');
+}
+
+.home__box-banner{
+    display: none;
+}
+
+.home__box-products{
+    margin: 30px 0;
+}
+
+.home__products{
+    width: 100%;
+}
+
+.home__products__box-image{
+    position: relative;
+}
+
+.home__poduct__image{
+    width: 100%;
+}
+
+.home__poduct__sticker{
+    position: absolute;
+    top: 0%;
+    right: 10px;
+}
+
+.home__products__box__zoom{
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    position: absolute;
+    top: 45%;
+    left: 0px;
+}
+
+.home__products h4{
+    margin: 10px 0;
+}
+
+.home__poduct__more{
+    background-color: var(--colorGrisOscuro);
+    display: inline-block;
+    margin: 10px 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 80px;
+}
