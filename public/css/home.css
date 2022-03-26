@@ -52,7 +52,7 @@ body.home{
     text-align: center;
     width: 80px;
 }
-/* TABLET */
+/* TABLETS */
 @media (min-width : 460px){
 
     /* BANNER */
@@ -70,12 +70,29 @@ body.home{
     }
 
     .home__product{
-        width: 49%;
         float: left;
         margin-right: 2%;
+        width: 49%;
     }
     .home__product:nth-child(even){
         margin-right: 0;
     }
     
+}
+
+/* LAPTOPS */
+
+@media(min-width: 768px){
+    /* PRODUCT */
+    .home__product{
+        margin-right: 2%;
+        width: 32%;
+    }
+    .home__product:nth-child(even){
+        margin-right: 2%;
+    }
+    .home__product:nth-child(3n){
+        margin-right: 0;
+
+
 }
