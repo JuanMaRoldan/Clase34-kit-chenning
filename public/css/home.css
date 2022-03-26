@@ -52,3 +52,30 @@ body.home{
     text-align: center;
     width: 80px;
 }
+/* TABLET */
+@media (min-width : 460px){
+
+    /* BANNER */
+    .home__box-banner{
+        display: block;
+        margin-top: 30px;
+    }
+    .home__box-banner img{
+        width: 100%;
+    }
+
+    /* PRODUCT */
+    .home__box-product{
+        overflow: hidden;
+    }
+
+    .home__product{
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    .home__product:nth-child(even){
+        margin-right: 0;
+    }
+    
+}

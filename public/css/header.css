@@ -30,10 +30,27 @@ header{
     text-transform: uppercase;
     width: 100%;
 }
-
+/* TABLETS */
 @media (min-width : 460px){
-    .header__menu li{
-        background-color: var(--colorRojo);
+    .header__burger{
+        display: none;
     }
-    
+    .header__menu ul{
+        overflow: hidden;
+    }
+    .header__menu li{
+        float: left;
+        font-size: 0.6rem;
+        margin-right: 1.4%;
+        width: 15.5%;
+    }
+    .header__menu li:last-child{
+        margin-right: 0%;
+    }
+}
+/* LAPTOPS */
+@media (min-width : 768px){
+    .header__menu li{
+        font-size: 1rem;
+    }
 }
