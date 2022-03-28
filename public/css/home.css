@@ -70,7 +70,7 @@ body.home{
     .home__box-product{
         flex-direction: row;
         flex-wrap: wrap;
-
+        justify-content: space-between;
     }
     .home__product{
         width: 49%;
